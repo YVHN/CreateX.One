@@ -1,5 +1,8 @@
 .recent-news {
     margin-bottom: 125px;
+    a{
+        color: inherit;
+    }
     &__heading {
         font-size: $heading-size-m;
         font-weight: $font-weight-b;
