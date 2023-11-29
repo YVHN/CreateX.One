@@ -1,0 +1,48 @@
+.projects-slider{
+    padding: 120px 0px 45px 0px;
+    .slider-up{
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__heading{
+        width: 705px;
+        font-size: $heading-size-m;
+        font-weight: $font-weight-b;
+        
+    }
+    &__arrows{
+        align-self: flex-end;
+    }
+    &__list{
+        justify-content: space-between;
+        .list__slide{
+            flex-basis: 390px;
+            .slide__img{
+                width: 100%;
+                height: 345px;
+            }
+            .slide__text{
+                padding: 24px;
+                height: 100%;
+                .slide__heading{
+                    margin: 0px 0px 5px 0px;
+                    font-weight: $font-weight-b;
+                    font-size: $heading-size-xs;
+                }
+                .slide__description{
+                    margin-bottom: 16px 0px 24px 0px;
+                    color: $main-color-g_l;
+                    font-size: $text-size-s;
+                }
+                .slide__button-view{
+                    color: $main-color-o;
+                    background-color: rgba(255, 255, 255, 0);
+                    border: 1px solid $main-color-o;
+                    margin-top: 24px;
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.partners{
+    margin-bottom: 150px;
+    &__heading{
+        font-size: $heading-size-m;
+        font-weight: $font-weight-b;
+        margin-bottom: 60px;
+    }
+    &__list{
+        width: 100%;
+        justify-content: space-between;
+        .partner{
+            flex-basis: 178px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.recent-news {
+    margin-bottom: 125px;
+    &__heading {
+        font-size: $heading-size-m;
+        font-weight: $font-weight-b;
+    }
+
+    .news-wrapper {
+        margin-top: 60px;
+        justify-content: space-between;
+        .main-news {
+            border-radius: 5px;
+            flex-basis: 705px;
+
+            &__img {
+                width: 100%;
+                height: 360px;
+            }
+
+            .news__content {
+                padding: 24px;
+
+                .news__heading {
+                    font-weight: $font-weight-b;
+                    font-size: $heading-size-xs;
+                }
+
+                .news__information {
+                    justify-content: space-between;
+                    padding: 12px 0px 0px 0px;
+                    color: $main-color-g_l;
+                    width: 350px;
+
+                    .information__gap {
+                        flex-basis: 1px;
+                        background-color: #787A80;
+                        height: 12px;
+                    }
+
+                    .comment-svg {
+                        padding-top: 2px;
+                        margin-right: 8px;
+                    }
+                }
+                .main-news__text{
+                    padding-top: 16px;
+                }
+            }
+        }
+
+        .secondary-news-wrapper{
+            .firts-secondary-news{
+                margin-bottom: 30px;
+            }
+            .secondary-news {
+                width: 465px;
+    
+                &__img {
+                    width: 100%;
+                    height: 156px;
+                }
+    
+                .news__content {
+                    padding: 16px 24px 24px 24px;
+    
+                    .news__heading {
+                        font-weight: $font-weight-b;
+                        font-size: $heading-size-xs;
+                    }
+    
+                    .news__information {
+                        justify-content: space-between;
+                        padding: 12px 0px 0px 0px;
+                        color: $main-color-g_l;
+                        width: 350px;
+    
+                        .comment-svg{
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

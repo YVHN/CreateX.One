@@ -1,0 +1,39 @@
+.header{
+    height: 90px;
+    padding: 20px 0px;
+    background-color: white;
+    .header-wrapper{
+        height: 52px;
+        justify-content: space-between;
+        .navigation {
+            a{
+                color: inherit;
+            }
+            .navigation-wrapper{
+                width: 500px;
+                justify-content: space-between;
+                color: $main-color-g;
+            }
+        }
+        .contacts{
+            flex-basis: 480px;
+            justify-content: end;
+            .contacts__method{
+                .method__information{
+                    margin-left: 20px;
+                    width: 150px;
+                    text-align: start;
+                    .method__heading{
+                        color: $main-color-g;
+                        font-style: normal;
+                        line-height: 21px;
+                    }
+                    .method__link{
+                        color: $main-color-b;
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+    }
+}

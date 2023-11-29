@@ -1,0 +1,25 @@
+.our-services {
+    padding: 212px 0px 40px 0px;
+    background-image: url(../../images/backgrounds/mramor.png);
+    width: 100%;
+    .services-list {
+        justify-content: space-between;
+        .service-short {
+            flex-basis: 285px;
+            background-color: white;
+            padding: 90px 0px;
+            border-radius: 5px;
+
+            &__svg {
+                width: 52px;
+                height: 52px;
+                margin-bottom: 24px;
+            }
+
+            &__heading {
+                font-weight: $font-weight-b;
+                font-size: $heading-size-xs;
+            }
+        }
+    }
+}

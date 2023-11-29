@@ -1,0 +1,16 @@
+.banner-slider{
+    .slides-list{
+        .slide{
+            opacity: 0.3;
+        }
+        .slide-active{
+            opacity: 1;
+        }
+    }
+    .slider__arrow{
+        transition: all 0.4s ease;
+    }
+    .slider__arrow:hover{
+        opacity: 1;
+    }
+}

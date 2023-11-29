@@ -1,0 +1,8 @@
+.review-slider{
+    .slider__arrow{
+        transition: all 0.2s ease;
+    }
+    .slider__arrow:hover{
+        transform: scale(1.15);
+    }
+}

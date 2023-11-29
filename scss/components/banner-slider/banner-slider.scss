@@ -1,0 +1,65 @@
+.banner-slider {
+    position: relative;
+    background: url('../../../images/backgrounds/banner_image.jpg') 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: $main-color-w;
+    padding: 220px 0px 120px 0px;
+    &__text {
+        width: 595px;
+    }
+
+    &__heading {
+        word-wrap: break-word;
+        width: 566px;
+
+        span {
+            color: $main-color-o;
+        }
+    }
+
+    &__text {
+        margin: 24px 0px 60px 0px;
+    }
+
+    &__buttons {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 180px;
+        .banner-button{
+            padding: 20px 36px;
+        }
+    }
+
+    .slides-list {
+        width: 728px;
+        justify-content: space-between;
+
+        .slide {
+            flex-basis: 178px;
+
+            &__number {
+                padding: 0px 0px 12px 0px;
+            }
+
+            &__line {
+                width: 100%;
+                height: 2px;
+                background-color: $main-color-w;
+            }
+        }
+    }
+    
+    .slider__arrow{
+        position: absolute;
+        top: 49%;
+        opacity: 0.6;
+    }
+    .left-arrow {
+        left: 40px;
+    }
+    .right-arrow {
+        right: 40px;
+    }
+}

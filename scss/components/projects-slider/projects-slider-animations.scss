@@ -1,0 +1,25 @@
+.projects-slider{
+    .slider-up{
+        .slider__arrow{
+            transition: all 0.4s ease;
+        }
+        .slider__arrow:hover{
+            background-color: $main-color-o;
+            svg{
+                path{
+                    fill: $main-color-w;
+                }
+            }
+        }
+    }
+    .list__slide:hover{
+        .slide__img{
+            height: 277px;
+        }
+        .slide__text{
+            .slide__button-view{
+                display:inline;
+            }
+        }
+    }
+}

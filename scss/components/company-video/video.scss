@@ -1,0 +1,34 @@
+.company-video {
+    margin: 120px 0px 180px 0px;
+
+    &__video {
+        z-index: 1;
+        position: relative;
+        .play-button {
+            z-index: 5;
+            position: absolute;
+            top: 50%;
+            left: 575px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            padding-left: 5px;
+        }
+        .unmute-button {
+            z-index: 5;
+            position: absolute;
+            top: 83%;
+            left: 3%;
+            width: 40px;
+            height: 40px;
+            border: none;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, .15);
+            padding: 3px 0px 0px 2px;
+        }
+        .video{
+            width: 100%;
+            height: 500px;
+        }
+    }
+}

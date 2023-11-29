@@ -1,0 +1,133 @@
+.container{
+    width: $desktop-content-width;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section_w{
+    background-color: white;
+    padding-top: 120px;
+}
+.section_g{
+    padding-top: 80px;
+    background-color: #F4F5F6;
+}
+.empty-inside{
+    background-color: none;
+}
+.row{
+    display: flex;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.shadow{
+    box-shadow: 0px 10px 20px 1px rgba(196, 196, 196, 0.50);
+}
+.title{
+    .title__heading {
+        font-size: $heading-size-m;
+        color: $main-color-b;
+    }
+    .title__description {
+        margin: 24px 0px 60px 0px;
+        color: $main-color-g_l;
+        font-size: $text-size-l;
+    }
+}
+.field__title{
+    font-size: $text-size-s;
+    color: $main-color-g;
+    margin-bottom: 8px;
+}
+.field{
+    padding: 11px 0px 12px 16px;
+    align-items: center;
+    font-size: $text-size-s;
+    background-color: #F4F5F6;
+    border: 1px solid #D7DADD;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text-weight_b{
+    font-weight: $font-weight-b;
+}
+.text-weight_r{
+    font-weight: $font-weight-r;
+}
+
+.main-font{
+    font-family: $main-font_1;
+}
+.more-link{
+    margin: 85px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__heading{
+        font-size: $heading-size-s;
+        font-weight: $font-weight-b;
+    }
+    &__button{
+        color: $main-color-w;
+        margin-left: 40px;
+    }
+}
+.text_xl{
+    font-size: $text-size-xl;
+}
+.text_l{
+    font-size: $text-size-l;
+}
+.text_m{
+    font-size: $text-size-m;
+}
+.text_s{
+    font-size: $text-size-s;
+}
+.text_s{
+    font-size: $text-size-xs;
+}
+
+.heading_l{
+    font-size: $heading-size-l;
+}
+.heading_m{
+    font-size: $heading-size-m;
+}
+.heading_s{
+    font-size: $heading-size-s;
+}
+.heading_xs{
+    font-size: $heading-size-xs;
+}
+
+.button{
+    font-family: $main-font_1;
+    color: $main-color-w;
+    border: 1px solid $main-color-w;
+    font-weight: $font-weight-b;
+    font-size: $text-size-m;
+    text-transform: uppercase;
+    padding: 12px 36px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.button-fill{
+    border: none;
+    background-color: $main-color-o;
+}
+
+
+.slider__arrow {
+    width: 48px;
+    height: 48px;
+    padding: 4px 0px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+

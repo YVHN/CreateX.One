@@ -1,0 +1,30 @@
+.message-form{
+    background-color: white;
+    top: 80px;
+    position: relative;
+    padding: 48px 60px;
+    &__heading{
+        margin-bottom: 32px;
+    }
+    .form{
+        input{
+            display: block;
+        }
+        justify-content: space-between;
+        &__item_1{
+            flex-basis: 260px;
+        }
+        &__item_2{
+            flex-basis: 260px;
+        }
+        &__item_3{
+            flex-basis: 414px;
+        }
+        &__button{
+            text-transform: uppercase;
+            height: 41px;
+            padding: 2px 32px;
+            align-self: flex-end;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.footer{
+    padding: 80px 0px;
+    background-color: $main-color-b;
+    &__wrapper{
+        justify-content: space-between;
+        .footer__info{
+            width: 530px;
+            .wrapper{
+                margin-bottom: 24px;
+                .logo{
+                    margin-right: 60px;
+                    display: inline;
+                }
+                .media-list{
+                    display: flex;
+                    width: 184px;
+                    justify-content: space-between;
+                }
+            }
+            .company-description{
+                color: $main-color-g_l;
+                font-size: $text-size-s;
+            }
+        }
+        .subscribe-form{
+            width: 495px;
+            height: 21px;
+            &__heading{
+                font-weight: $font-weight-b;
+                margin-bottom: 24px;
+                color: $main-color-w;
+                font-size: $heading-size-s;
+            }
+            &__field{
+                display: flex;
+                flex-grow: 1;
+                height: 44px;
+                .subscribe__input{
+                    border: rgba(255, 255, 255, 0.20) 1px solid;
+                    background-color: rgba(255, 255, 255, 0.12);
+                    color: $main-color-g_l;
+                    border-top-right-radius: 0px;
+                    border-bottom-right-radius: 0px;
+                }
+                .subscribe-button{
+                    padding: 6;
+                    border-top-left-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                    font-size: $text-size-s;
+                }
+                .subscribe-button:hover{
+                    transform: scale(1);
+                }
+            }
+            &__describe{
+                margin-top: 16px;
+                color: $main-color-g_l;
+                font-size: $text-size-xs;
+            }
+        }
+    }
+    &__navigation{
+        width: 885px;
+        justify-content: space-between;
+        margin-top: 75px;
+        .navigation__list{
+            .list__heading{
+                color: $main-color-w;
+                font-weight: $font-weight-b;
+                font-size: $text-size-m;
+                margin-bottom: 14px;
+            }
+            .navigation__item{
+                a{
+                    color: inherit;
+                }
+                margin: 4px 0px;
+                color: $main-color-g_l;
+                span{
+                    color: $main-color-w;
+                }
+            }
+        }
+    }
+    &__bottom{
+        justify-content: space-between;
+        margin-top: 40px;
+        .rights{
+            p{
+                img{
+                    margin: 0px 4px;
+                }
+                font-size: $text-size-xs;
+                color: $main-color-w;
+            }
+        }
+        .to-top{
+            &__article{
+                font-size: $text-size-s;
+                align-self: flex-end;
+                color: $main-color-w;
+            }
+            &__button{
+                margin-left: 24px;
+                padding: 8px;
+            }
+        }
+    }
+}
