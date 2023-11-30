@@ -1,8 +1,5 @@
 .recent-news {
     margin-bottom: 125px;
-    a{
-        color: inherit;
-    }
     &__heading {
         font-size: $heading-size-m;
         font-weight: $font-weight-b;
@@ -26,6 +23,7 @@
                 .news__heading {
                     font-weight: $font-weight-b;
                     font-size: $heading-size-xs;
+                    color: $main-color-b;
                 }
 
                 .news__information {
@@ -47,6 +45,7 @@
                 }
                 .main-news__text{
                     padding-top: 16px;
+                    color: $main-color-b;
                 }
             }
         }
@@ -69,6 +68,7 @@
                     .news__heading {
                         font-weight: $font-weight-b;
                         font-size: $heading-size-xs;
+                        color: $main-color-b;
                     }
     
                     .news__information {

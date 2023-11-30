@@ -649,6 +649,7 @@ h1, h2, h3, h4, h5, h6 {
 .recent-news .news-wrapper .main-news .news__content .news__heading {
   font-weight: 700;
   font-size: 20px;
+  color: #1E212C;
 }
 .recent-news .news-wrapper .main-news .news__content .news__information {
   justify-content: space-between;
@@ -667,6 +668,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .recent-news .news-wrapper .main-news .news__content .main-news__text {
   padding-top: 16px;
+  color: #1E212C;
 }
 .recent-news .news-wrapper .secondary-news-wrapper .firts-secondary-news {
   margin-bottom: 30px;
@@ -684,6 +686,7 @@ h1, h2, h3, h4, h5, h6 {
 .recent-news .news-wrapper .secondary-news-wrapper .secondary-news .news__content .news__heading {
   font-weight: 700;
   font-size: 20px;
+  color: #1E212C;
 }
 .recent-news .news-wrapper .secondary-news-wrapper .secondary-news .news__content .news__information {
   justify-content: space-between;
